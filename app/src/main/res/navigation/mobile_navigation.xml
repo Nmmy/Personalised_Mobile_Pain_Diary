@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+    <fragment
+        android:id="@+id/nav_pain_data_entry"
+        android:name="com.example.personalisedmobilepaindiary.fragment.PainDataEntry"
+        android:label="Pain Data Entry"
+        tools:layout="@layout/pain_data_entry"/>
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.personalisedmobilepaindiary.fragment.HomeFragment"
+        android:label="Home Fragment"
+        tools:layout="@layout/home_fragment"/>
+    <fragment
+        android:id="@+id/nav_daily_record"
+        android:name="com.example.personalisedmobilepaindiary.fragment.DailyRecord"
+        android:label="Daily Record"
+        tools:layout="@layout/daily_record"/>
+    <fragment
+        android:id="@+id/nav_reports"
+        android:name="com.example.personalisedmobilepaindiary.fragment.Reports"
+        android:label="Reports"
+        tools:layout="@layout/reports"/>
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="com.example.personalisedmobilepaindiary.fragment.Maps"
+        android:label="Maps"
+        tools:layout="@layout/maps"/>
+    <fragment
+        android:id="@+id/nav_line_chart"
+        android:name="com.example.personalisedmobilepaindiary.fragment.PainWeatherLineChart"
+        android:label="PainWeatherLineChart" />
+    <fragment
+        android:id="@+id/nav_pie_chart"
+        android:name="com.example.personalisedmobilepaindiary.fragment.StepsPieChart"
+        android:label="StepsPieChart" />
+</navigation>

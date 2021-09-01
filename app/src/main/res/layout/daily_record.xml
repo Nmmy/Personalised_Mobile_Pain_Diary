@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/deleteAllBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete All Records"
+        android:backgroundTint="@color/amber_300"/>
+    <EditText
+        android:id="@+id/EdId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please enter a pain record Id"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/grey_500"/>
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete selected Record"
+        android:backgroundTint="@color/amber_300"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:text="Pain Data"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="Today Steps/Goal"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="Weather Data"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:background="@color/grey_500"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:text="Lv"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text="Location"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:text="Mood"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:text="Steps"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:text="Date"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="Tem"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="Hum"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:text="Pre"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+        <TextView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:text="Email"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/grey_500"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Personalised Mobile Pain Diary</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoibm1teTIwMjAiLCJhIjoiY2tvZndreHR2MG1xejJ1b2N1dTNzamFleiJ9.BRwch-vYL00OIT1x8LrWlA</string>
+</resources>

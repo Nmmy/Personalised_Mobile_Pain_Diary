@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "308821645531",
+    "project_id": "personalised-mobile-pain-17f44",
+    "storage_bucket": "personalised-mobile-pain-17f44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308821645531:android:3d406df80529995ed394fe",
+        "android_client_info": {
+          "package_name": "com.example.personalisedmobilepaindiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308821645531-oonu4e8rkc0ucjs6du9kat19eqeba7eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAXRWS5pv_5l-CDRXXOdCyNnKFgS5Rtxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308821645531-oonu4e8rkc0ucjs6du9kat19eqeba7eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

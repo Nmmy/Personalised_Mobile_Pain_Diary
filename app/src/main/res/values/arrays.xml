@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="numeric_rating_scale">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="pain_location">
+        <item>back</item>
+        <item>neck</item>
+        <item>head</item>
+        <item>knees</item>
+        <item>hips</item>
+        <item>abdomen</item>
+        <item>elbows</item>
+        <item>shoulders</item>
+        <item>shins</item>
+        <item>jaw</item>
+        <item>facial</item>
+    </string-array>
+    
+    <string-array name="mood">
+        <item>very low</item>
+        <item>low</item>
+        <item>average</item>
+        <item>good</item>
+        <item>very good</item>
+    </string-array>
+
+    <string-array name="weather">
+        <item>temperature</item>
+        <item>humidity</item>
+        <item>pressure</item>
+    </string-array>
+
+</resources>

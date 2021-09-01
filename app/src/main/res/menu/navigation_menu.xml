@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_fragment"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_pain_data_entry"
+            android:title="Pain Data Entry" />
+        <item
+            android:id="@+id/nav_daily_record"
+            android:title="Daily Record" />
+
+        <item
+            android:title="Reports" >
+            <menu>
+                <item
+                android:id="@+id/nav_reports"
+                android:title="        Pain Location Report"/>
+                <item
+                    android:id="@+id/nav_pie_chart"
+                    android:title="        Steps Report" />
+                <item
+                    android:id="@+id/nav_line_chart"
+                    android:title="        Pain Weather Report" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_maps"
+            android:title="Maps" />
+
+    </group>
+
+
+</menu>
